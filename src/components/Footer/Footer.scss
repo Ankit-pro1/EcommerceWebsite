@@ -1,0 +1,36 @@
+.footer{
+    margin: 100px 200px 10px 200px;
+    .top{
+        display: flex;
+        gap: 100px;
+        .item{
+            flex: 25%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 14px;
+
+            h2{
+                font-size: 22px;
+                font-weight: 500;
+                color: #555;
+            }
+        }
+    }
+    .bottom{
+        margin-top: 30px;
+        .center{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                font-size: 20px;
+                font-weight: 600;
+                color: #037bab;
+            }
+            .copyright{
+                font-size: 14px;
+            }
+        }
+    }
+}
