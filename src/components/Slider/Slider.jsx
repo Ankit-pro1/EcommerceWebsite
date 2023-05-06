@@ -21,9 +21,9 @@ const nextSlide = () => {
 return (
   <div className='slider'>
     <div className="container" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
-      <img src={data[0]} alt="" />
-      <img src={data[1]} alt="" />
-      <img src={data[2]} alt="" />
+      <img src={data[0]} alt="" draggable='false' />
+      <img src={data[1]} alt="" draggable='false'/>
+      <img src={data[2]} alt="" draggable='false'/>
     </div>
     <div className="icons">
         <div className="icon" onClick={prevSlide}>

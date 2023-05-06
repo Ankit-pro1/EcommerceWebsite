@@ -1,5 +1,4 @@
 import React from 'react'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
@@ -14,10 +13,6 @@ function Navbar() {
     <div className="navbar">
       <div className="wrapper">
         <div className="left">
-          <div className="item">
-            <span>USD</span>
-            <KeyboardArrowDownIcon />
-          </div>
           <div className="item">
             <Link className='link' to='/products/:1'>Men</Link>
           </div>
